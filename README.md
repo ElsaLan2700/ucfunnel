@@ -6,6 +6,5 @@
   下載並安裝 Node.js LTS 版本[Node.js](https://nodejs.org/en/).
 - 安裝 create react app
   安裝步驟請參照 [create react app](https://create-react-app.dev/docs/getting-started).
-- npm install
-
-## 技術
+- npm install 安裝 mode_modules
+- npm start 啟動專案
