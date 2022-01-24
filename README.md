@@ -2,9 +2,19 @@
 
 ## 使用者操作 SOP
 
-- 安裝 Node
-  下載並安裝 Node.js LTS 版本[Node.js](https://nodejs.org/en/).
-- 安裝 create react app
-  安裝步驟請參照 [create react app](https://create-react-app.dev/docs/getting-started).
+- 請下載本壓縮檔案並解壓縮
+- 使用 Visual Studio 開啟壓縮檔的 ucfunnel-main 資料夾
 - npm install 安裝 mode_modules
 - npm start 啟動專案
+
+## 使用技術
+
+- **React**
+  - create react app
+  - functional component
+- **Redux**
+  - store, dispatch, connect
+- **Formik**
+  - withformik
+  - validate
+- **Material UI**
