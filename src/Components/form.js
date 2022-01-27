@@ -14,7 +14,7 @@ const MyEnhancedForm = withFormik({
   }),
   validate,
   handleSubmit: async (values, { props, setSubmitting, setStatus }) => {
-    props.dispatch(updateVal(values));
+    props.updateVal(values);
     setStatus({ hide: true });
     const time = await getSignupTime();
     setStatus({ hide: true, time: time });
@@ -22,6 +22,10 @@ const MyEnhancedForm = withFormik({
   },
 })(MyForm);
 
-const AddForm = connect()(MyEnhancedForm);
+const mapStateToProps = (state) => {
+  return state;
+};
+
+const AddForm = connect(mapStateToProps, { updateVal })(MyEnhancedForm);
 
 export default AddForm;

@@ -9,8 +9,11 @@ const signUp = createSlice({
     address: "",
   },
   reducers: {
-    updateVal(state, { payload: { val } }) {
-      state = val;
+    updateVal(state, action) {
+      state.account = action.payload.account;
+      state.password = action.payload.password;
+      state.phone = action.payload.phone;
+      state.address = action.payload.address;
     },
   },
 });

@@ -124,6 +124,8 @@ export const MyForm = (props) => {
           註冊成功
           <br />
           {status.time}
+          <br />
+          帳號: {values.account}，已確認送出表單囉
         </Typography>
       )}
     </>
